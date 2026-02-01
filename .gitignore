@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 仮想環境
+venv/
+.venv/
+env/
+
+# 環境変数・シークレット（重要！）
+.env
+.env.local
+.env.*.local
+secrets.toml
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 出力ファイル（ローカルのみ）
+*.csv
+*.xlsx
+results/
+
+# デバッグファイル
+debug_*.png
+debug_*.html
+*.log
+
+# レポート画像（ローカル生成）
+market_report.png
+profit_report.png
+summary_report.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright（ローカル開発用）
+playwright-report/
+test-results/

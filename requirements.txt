@@ -1,0 +1,13 @@
+# Streamlit Cloud デプロイ用
+streamlit>=1.30.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+anthropic>=0.20.0
+
+# スクレイピング関連
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# 注意: playwright はCloud環境では動作しないため除外
+# ローカル開発時は別途インストール: pip install playwright
